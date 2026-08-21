@@ -43,9 +43,9 @@ In short, it is a low-cost, DIY prototype of the kind of electronic access contr
 
 ## Circuit and Wiring
 
-![Circuit Diagram](images/circuit.jpg)
+![Circuit Diagram](security_system_final/images/circuit.jpg)
 
-![Breadboard Setup](images/breadboard.jpg)
+![Breadboard Setup](security_system_final/images/breadboard.jpg)
 
 **Pin connections:**
 
@@ -77,8 +77,9 @@ Note: GPIO2 and GPIO15 were deliberately avoided for the keypad, as these are ES
 
 [Watch the demo](https://www.youtube.com/shorts/98UHolFIUHg?feature=share)
 
-![Working Demo](images/demo.jpeg)
-![Working Demo 2](images/demo_1.jpeg)
+![Working Demo](security_system_final/images/demo.jpeg)
+
+![Working Demo 2](security_system_final/images/demo_1.jpeg)
 
 ---
 
