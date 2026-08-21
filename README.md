@@ -77,7 +77,8 @@ Note: GPIO2 and GPIO15 were deliberately avoided for the keypad, as these are ES
 
 [Watch the demo](https://www.youtube.com/shorts/98UHolFIUHg?feature=share)
 
-![Working Demo](images/demo.jpg)
+![Working Demo](images/demo.jpeg)
+![Working Demo 2](images/demo_1.jpeg)
 
 ---
 
