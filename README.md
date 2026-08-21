@@ -104,6 +104,8 @@ In short, it is a low-cost, DIY prototype of the kind of electronic access contr
 4. Pressing `*` clears the current input.
 5. After three consecutive failed attempts, the system enters a 15-second lockout state during which all keypad input is ignored, before resetting and allowing new attempts.
 
+> **Note:** The PIN entered on the keypad must match the password set in the code. This default password can (and should) be changed to whatever you prefer — simply update the `password` variable in `security_system_final.ino` with your own PIN before uploading the code to your board.
+
 ---
 
 ## Code
