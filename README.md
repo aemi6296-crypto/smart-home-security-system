@@ -1,6 +1,5 @@
 # Smart Home Security System
 
-ESP32 Keypad Home Security System
 A microcontroller-based access control system built using an **ESP32**, a 4x4 matrix keypad, an OLED display, a buzzer, and a servo motor. The system authenticates a user via a PIN entered on the keypad and actuates a servo to unlock a door mechanism upon successful authentication.
 
 ---
