@@ -1,6 +1,17 @@
 # ESP32 Keypad-Based Home Security System
 
-A microcontroller-based access control system built using an ESP32, a 4x4 matrix keypad, an OLED display, a buzzer, and a servo motor. The system authenticates a user via a PIN entered on the keypad and actuates a servo to unlock a door mechanism upon successful authentication.
+A microcontroller-based access control system built using an **ESP32**, a 4x4 matrix keypad, an OLED display, a buzzer, and a servo motor. The system authenticates a user via a PIN entered on the keypad and actuates a servo to unlock a door mechanism upon successful authentication.
+
+---
+
+## Demo
+
+[▶ Watch the demo video](https://www.youtube.com/shorts/98UHolFIUHg?feature=share)
+
+<p align="center">
+  <img src="security_system_final/images/demo.jpeg" width="400">
+  <img src="security_system_final/images/demo_1.jpeg" width="400">
+</p>
 
 ---
 
@@ -28,6 +39,27 @@ In short, it is a low-cost, DIY prototype of the kind of electronic access contr
 
 ---
 
+## Tech Stack
+
+| | |
+|---|---|
+| **Language** | C++ (Arduino sketch, `.ino`) |
+| **Platform / Board** | ESP32 Dev Board (Arduino core for ESP32) |
+| **IDE** | Arduino IDE / VS Code with Arduino extension |
+| **Communication Protocol** | I2C (for OLED display) |
+
+**Required Libraries** (install via Arduino Library Manager → Sketch → Include Library → Manage Libraries):
+
+| Library | Purpose |
+|---|---|
+| `Keypad` (by Mark Stanley) | Reads input from the 4x4 matrix keypad |
+| `Wire` (built-in) | I2C communication with the OLED |
+| `Adafruit GFX Library` | Core graphics library for the OLED display |
+| `Adafruit SSD1306` | Driver for the SSD1306 OLED display |
+| `ESP32Servo` (by Kevin Harrington) | Controls the servo motor on ESP32 |
+
+---
+
 ## Hardware Used
 
 | Component | Purpose |
@@ -43,9 +75,10 @@ In short, it is a low-cost, DIY prototype of the kind of electronic access contr
 
 ## Circuit and Wiring
 
-![Circuit Diagram](security_system_final/images/circuit.jpg)
-
-![Breadboard Setup](security_system_final/images/breadboard.jpg)
+<p align="center">
+  <img src="security_system_final/images/circuit.jpg" width="400">
+  <img src="security_system_final/images/breadboard.jpg" width="400">
+</p>
 
 **Pin connections:**
 
@@ -57,7 +90,7 @@ In short, it is a low-cost, DIY prototype of the kind of electronic access contr
 | Buzzer | 13 |
 | Servo | 14 |
 
-Note: GPIO2 and GPIO15 were deliberately avoided for the keypad, as these are ESP32 boot strapping pins and can interfere with startup if held low/high externally.
+> **Note:** GPIO2 and GPIO15 were deliberately avoided for the keypad, as these are ESP32 boot strapping pins and can interfere with startup if held low/high externally.
 
 ---
 
@@ -73,25 +106,9 @@ Note: GPIO2 and GPIO15 were deliberately avoided for the keypad, as these are ES
 
 ---
 
-## Demo Video
-
-[Watch the demo](https://www.youtube.com/shorts/98UHolFIUHg?feature=share)
-
-![Working Demo](security_system_final/images/demo.jpeg)
-
-![Working Demo 2](security_system_final/images/demo_1.jpeg)
-
----
-
 ## Code
 
-The full source code is available in [`security_system_final.ino`](./security_system_final.ino).
-
-**Required libraries** (install via Arduino Library Manager):
-- Keypad
-- Adafruit GFX Library
-- Adafruit SSD1306
-- ESP32Servo
+The full source code is available in [`security_system_final.ino`](./security_system_final/security_system_final.ino).
 
 ---
 
