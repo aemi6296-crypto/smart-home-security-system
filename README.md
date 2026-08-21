@@ -9,8 +9,8 @@ A microcontroller-based access control system built using an **ESP32**, a 4x4 ma
 [▶ Watch the demo video](https://www.youtube.com/shorts/98UHolFIUHg?feature=share)
 
 <p align="center">
-  <img src="security_system_final/images/demo.jpeg" width="300">
-  <img src="security_system_final/images/demo_1.jpeg" width="300">
+  <img src="security_system_final/images/demo.jpeg" width="350">
+  <img src="security_system_final/images/demo_1.jpeg" width="350">
 </p>
 
 ---
@@ -76,8 +76,8 @@ In short, it is a low-cost, DIY prototype of the kind of electronic access contr
 ## Circuit and Wiring
 
 <p align="center">
-  <img src="security_system_final/images/circuit.jpg" width="400">
-  <img src="security_system_final/images/breadboard.jpg" width="400">
+  <img src="security_system_final/images/circuit.jpg" width="300">
+  <img src="security_system_final/images/breadboard.jpg" width="350">
 </p>
 
 **Pin connections:**
